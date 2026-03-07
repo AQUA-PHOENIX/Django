@@ -1,0 +1,78 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Project</title>
+    <link href="{% static 'blog/css/home.css' %}" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">
+        <h1>Welcome to Django Learning</h1>
+        <p>Practice Website for Students</p>
+    </div>
+
+    <hr>
+
+    <div class="section">
+        <h2>What is Django?</h2>
+        <p>
+            Django is a high level Python framework that allows developers
+            to build secure anfd scalable web applications quickly.
+        </p>
+
+        <hr>
+
+        <a href="https://www.dsjangoproject.com" target="_blank">
+            Visit Django Official Website
+        </a>
+    </div>
+
+    <hr>
+
+    <div class="section">
+        <h2>Django Features</h2>
+        <table>
+            <tr>
+                <th>Features</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>ORM</td>
+                <td>Database Interaction using Python</td>
+            </tr>
+            <tr>
+                <td>Admin Panel</td>
+                <td>Automatic Admin Interface</td>
+            </tr>
+            <tr>
+                <td>Security</td>
+                <td>Protection against common Attacks</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <div class="section">
+        <h2></h2>
+    </div>
+
+    <hr>
+
+    <div id="img" class="section">
+        <h2>Django Logo</h2>
+        <img src="https://static.djangoproject.com/img/logos/django-logo-positive.png" 
+        width ="200" alt="Django Logo">
+
+    </div>
+
+    <hr>
+
+    <div id="footer">
+        <p>&copy; 2026 Django Practice | Created for Classroom Learning</p>
+    </div>
+</body>
+</html>
