@@ -1,0 +1,133 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$AjTGLs1rzj0Ol7e5AszfA7$vArHod3gMI4ut165/OQ0xUoHr8I+BX8DHIYxJJze3MY=",
+    "last_login": "2026-02-28T02:51:15.865Z",
+    "is_superuser": true,
+    "username": "Mithilesh_Das",
+    "first_name": "",
+    "last_name": "",
+    "email": "mithileshdas61.work@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-27T11:08:37.347Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ewCz977W03Gd5wfa0X5Lkc$YXJYnPprzu+fgbyd82j5K9AwZHlktxlP9l5yXXUYgaU=",
+    "last_login": "2026-03-27T10:42:04.378Z",
+    "is_superuser": true,
+    "username": "hp",
+    "first_name": "",
+    "last_name": "",
+    "email": "slayyy@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-03-13T10:42:05.329Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Why \"Micro-Wins\" Are Your Secret Weapon",
+    "slug": "micro-wins-secret-weapon",
+    "body": "We’re often told to \"dream big,\" but we rarely talk about how heavy those big dreams can feel. When you’re staring at a massive goal, it’s easy to feel paralyzed by the sheer scale of it.\r\n\r\nThe antidote? The Micro-Win.\r\n\r\nWhat counts as a micro-win?\r\nIt’s anything that takes less than ten minutes but moves the needle forward.\r\n\r\nThe \"Draft\" Win: Writing just one paragraph of that report.\r\n\r\nThe \"Space\" Win: Clearing off your desk so you can actually see the wood grain.\r\n\r\nThe \"Health\" Win: Drinking a glass of water before your third coffee.\r\n\r\nWhy it works\r\nSuccess is a momentum game. When you check a tiny box, your brain releases a hit of dopamine. That chemical reward makes the next task feel easier. You aren’t just getting things done; you’re training your brain to see yourself as a \"doer.\"\r\n\r\nThe takeaway: Stop waiting for the giant breakthrough. Accumulate enough small wins, and they’ll eventually look like a landslide of success.",
+    "author": 1,
+    "publish": "2026-02-27T11:22:00Z",
+    "created": "2026-02-27T11:22:16.354Z",
+    "updated": "2026-03-19T07:27:47.273Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Post from February",
+    "slug": "post-from-february",
+    "body": "Hello guys!!!🥳",
+    "author": 1,
+    "publish": "2026-02-27T12:14:36Z",
+    "created": "2026-02-27T12:16:01.704Z",
+    "updated": "2026-02-27T12:16:01.704Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Post on 28 Feb",
+    "slug": "Post-on-28-Feb",
+    "body": "Happy National Science Day",
+    "author": 1,
+    "publish": "2026-02-28T03:10:50Z",
+    "created": "2026-02-28T03:10:52.203Z",
+    "updated": "2026-03-19T07:11:23.494Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Markdown Post",
+    "slug": "markdown-post",
+    "body": "This is a post formatted with markdown\r\n-------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n- One\r\n\r\n- Two\r\n\r\n- Three\r\n\r\nAnd a [link to the Django Book](ttps://packt.link/free-ebook/9781805125457).",
+    "author": 1,
+    "publish": "2026-03-20T11:51:59Z",
+    "created": "2026-03-20T11:53:01.596Z",
+    "updated": "2026-03-20T12:16:01.924Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 4,
+    "name": "SIDDHANT SATYAJEET JENA",
+    "email": "mithileshdas61.work@gamil.com",
+    "body": "Happy Birthday in advance",
+    "created": "2026-03-13T11:22:17.754Z",
+    "updated": "2026-03-13T11:29:50.437Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 4,
+    "name": "MITHILESH DAS",
+    "email": "mithileshdas61.work@gamil.com",
+    "body": "What a brilliant Blog!!! 💕",
+    "created": "2026-03-13T11:24:49.733Z",
+    "updated": "2026-03-13T11:55:59.770Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 4,
+    "name": "SIDDHANT SATYAJEET JENA",
+    "email": "mithileshdas61@gamil.com",
+    "body": "Love your content❤️",
+    "created": "2026-03-20T11:47:00.489Z",
+    "updated": "2026-03-20T11:47:00.489Z",
+    "active": true
+  }
+}
+]

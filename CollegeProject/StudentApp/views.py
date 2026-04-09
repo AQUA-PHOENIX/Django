@@ -6,3 +6,4 @@ def student_list(request):
     return render(request, 'Student_App/student_list.html',{
         'students' : student
     })
+

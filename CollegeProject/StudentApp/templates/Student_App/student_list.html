@@ -2,15 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student List</title>
+    <title>Student Profile</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; line-height: 1.6; }
+        .card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; max-width: 400px; }
+        .label { font-weight: bold; color: #555; }
+    </style>
 </head>
 <body>
-    <h2>Student List</h2>
-    <ul>
-        {% for s in student %}
-        <li>{{s.name}} -- {{s.age}}</li>
+
+    <h1>Student Information</h1>
+    
+    <div class="card">
+        {% for student in students %}
+        <p><span class="label">Name:</span> {{ student.name }}</p>
+        <p><span class="label">Age:</span> {{ student.age }}</p>
+        <p><span class="label">Roll Number:</span> {{ student.roll_number }}</p>
+        <p><span class="label">Department:</span> 
+            {% if student.department %}
+                {{ student.department.dept_name }} ({{ student.department.dept_code }})
+            {% else %}
+                No Department Assigned
+            {% endif %}
+        </p>
+        <hr>
+        <small>Profile created on: {{ student.created|date:"M d, Y" }}</small>
         {% endfor %}
-    </ul>
+    </div>
+
 </body>
 </html>
